@@ -1,0 +1,12 @@
+Usage: generate-pass [options]
+Options:
+    --length, -l             Length of password (Default: 20)
+    --min-upper, -miu        Minimum number of uppercase characters (Default: 0)
+    --max-upper, -mau        Maximum number of uppercase characters (Default: length)
+    --min-lower, -mil        Minimum number of lowercase characters (Default: 0)
+    --max-lower, -mal        Maximum number of lowercase characters (Default: length)
+    --min-number, -minu      Minimum number of number characters (Default: 0)
+    --max-number, -manu      Maximum number of number characters (Default: length)
+    --min-special, -mis      Minimum special of special characters (Default: 0)
+    --max-special, -mas      Maximum special of special characters (Default: length)
+    --special-chars, -sc     Valid special characters (Default: !"#$%&'()*+,-./:;<=>?@[\]^_`|}~)
